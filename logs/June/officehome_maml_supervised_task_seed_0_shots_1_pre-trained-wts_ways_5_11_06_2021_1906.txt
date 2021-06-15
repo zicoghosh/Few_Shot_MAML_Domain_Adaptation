@@ -1,0 +1,108 @@
+configuration :  officehome_maml_order_2_seed_0_shots_1_ways_5_meta-lr_0.0001_pre-train-wts_datetime_11_06_2021_09_47_43
+
+Train domains :  ['Art', 'Clipart', 'Real World']
+Test domain : Product
+
+Train len 50
+Test len 15
+
+Using pretrained model from path : /home/sankha/Few-shot-MO/results_auto/miniimagenetImb_maml_checkpoint_order_2_seed_0_datetime_27_10_2020_18_55_05_shots_5_ways_5/final_model.pt
+
+
+batch 0: train=0.412000 test=0.418000
+batch 1000: train=0.390000 test=0.476000
+batch 2000: train=0.390000 test=0.456000
+batch 3000: train=0.442000 test=0.458000
+batch 4000: train=0.404000 test=0.492000
+batch 5000: train=0.430000 test=0.452000
+batch 6000: train=0.448000 test=0.470000
+batch 7000: train=0.440000 test=0.482000
+batch 8000: train=0.458000 test=0.468000
+batch 9000: train=0.472000 test=0.464000
+batch 10000: train=0.446000 test=0.474000
+batch 11000: train=0.458000 test=0.476000
+batch 12000: train=0.474000 test=0.486000
+batch 13000: train=0.470000 test=0.502000
+batch 14000: train=0.502000 test=0.482000
+batch 15000: train=0.494000 test=0.478000
+batch 16000: train=0.512000 test=0.504000
+batch 17000: train=0.458000 test=0.468000
+batch 18000: train=0.518000 test=0.468000
+batch 19000: train=0.520000 test=0.440000
+batch 20000: train=0.508000 test=0.476000
+batch 21000: train=0.524000 test=0.414000
+batch 22000: train=0.520000 test=0.472000
+batch 23000: train=0.526000 test=0.414000
+batch 24000: train=0.536000 test=0.460000
+batch 25000: train=0.538000 test=0.434000
+batch 26000: train=0.508000 test=0.444000
+batch 27000: train=0.526000 test=0.454000
+batch 28000: train=0.570000 test=0.460000
+batch 29000: train=0.552000 test=0.478000
+batch 30000: train=0.554000 test=0.474000
+batch 31000: train=0.534000 test=0.450000
+batch 32000: train=0.532000 test=0.456000
+batch 33000: train=0.572000 test=0.460000
+batch 34000: train=0.572000 test=0.480000
+batch 35000: train=0.548000 test=0.468000
+batch 36000: train=0.602000 test=0.422000
+batch 37000: train=0.560000 test=0.446000
+batch 38000: train=0.542000 test=0.438000
+batch 39000: train=0.558000 test=0.478000
+batch 40000: train=0.584000 test=0.456000
+batch 41000: train=0.626000 test=0.398000
+batch 42000: train=0.570000 test=0.452000
+batch 43000: train=0.564000 test=0.460000
+batch 44000: train=0.554000 test=0.446000
+batch 45000: train=0.576000 test=0.462000
+batch 46000: train=0.602000 test=0.464000
+batch 47000: train=0.572000 test=0.426000
+batch 48000: train=0.580000 test=0.466000
+batch 49000: train=0.622000 test=0.476000
+batch 50000: train=0.574000 test=0.432000
+batch 51000: train=0.622000 test=0.476000
+batch 52000: train=0.562000 test=0.436000
+batch 53000: train=0.632000 test=0.416000
+batch 54000: train=0.598000 test=0.430000
+batch 55000: train=0.614000 test=0.460000
+batch 56000: train=0.622000 test=0.432000
+batch 57000: train=0.602000 test=0.416000
+batch 58000: train=0.586000 test=0.440000
+batch 59000: train=0.590000 test=0.436000
+Training Complete
+
+
+
+Evaluating for Seen-Domains('Art', 'Clipart', 'Product') and Seen Classes(Train):
+	Domain : Art
+	Accuracy: 0.6656666666666666; variation: 0.20596412848411788
+
+
+	Domain : Clipart
+	Accuracy: 0.5816666666666667; variation: 0.20975514826154382
+
+
+	Domain : Product
+	Accuracy: 0.6123333333333333; variation: 0.2148981670983311
+
+
+
+Evaluating for Seen-Domains  ['Art', 'Clipart', 'Real World']  and Unseen Classes(Test):
+	Domain : Art
+	Accuracy: 0.4483333333333333; variation: 0.22360058636377103
+
+
+	Domain : Clipart
+	Accuracy: 0.41333333333333333; variation: 0.22050447211388305
+
+
+	Domain : Real World
+	Accuracy: 0.41100000000000003; variation: 0.22078420837248908
+
+
+
+Evaluating for Unseen Domain  Product  and Seen Classes:
+Accuracy: 0.5810000000000001; Variation: 0.22324650053248316
+
+Evaluating for Unseen Domain  Product  and Unseen Classes:
+Accuracy: 0.4; Variation: 0.2250925735484551

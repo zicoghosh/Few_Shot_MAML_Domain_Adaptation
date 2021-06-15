@@ -1,0 +1,3 @@
+officehome_maml_order_2_seed_0_shots_1_ways_5_meta-lr_0.0001_dropout_0.2_RandAugment-prob_0.5_datetime_11_06_2021_08_07_39
+Train len 50
+Test len 15

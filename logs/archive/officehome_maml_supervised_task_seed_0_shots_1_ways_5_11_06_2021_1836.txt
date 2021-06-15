@@ -1,0 +1,8 @@
+configuration :  officehome_maml_order_2_seed_0_shots_1_ways_5_meta-lr_0.0001_dropout_0.2_RandAugment-prob_0.5_datetime_11_06_2021_09_33_51
+
+Train domains :  ['Art', 'Clipart', 'Real World']
+Test domain : Product
+
+Train len 50
+Test len 15
+batch 0: train=0.252000 test=0.266000

@@ -1,0 +1,48 @@
+Model No: final_model.pt
+
+Evaluating for Unseen Domain and Unseen Classes:
+Accuracy: 0.29833333333333334; Variation: 0.19764586737113654
+
+Evaluating for Unseen Domain and Seen Classes:
+Accuracy: 0.4273333333333334; Variation: 0.220120169200573
+
+Evaluating for Seen Domain and Unseen Classes:
+	Domain : Art
+	Accuracy: 0.31233333333333335; variation: 0.20424141488825315
+
+
+	Domain : Clipart
+	Accuracy: 0.29600000000000004; variation: 0.19004560856103286
+
+
+	Domain : Product
+	Accuracy: 0.2876666666666667; variation: 0.19726772558012515
+
+
+--------------------------------
+
+
+Model No: final_model.pt
+
+Evaluating for Unseen Domain and Unseen Classes:
+Accuracy: 0.29033333333333333; Variation: 0.19193720037785506
+
+Evaluating for Unseen Domain and Seen Classes:
+Accuracy: 0.41800000000000004; Variation: 0.2189581390738117
+
+Evaluating for Seen Domain and Seen Classes:
+	Domain : Art
+	Accuracy: 0.447; variation: 0.2214896536334523
+
+
+	Domain : Clipart
+	Accuracy: 0.42933333333333334; variation: 0.22046818868540247
+
+
+	Domain : Product
+	Accuracy: 0.44333333333333336; variation: 0.2235819511697867
+
+
+--------------------------------
+
+

@@ -1,0 +1,24 @@
+Model No: final_model.pt
+
+Evaluating for Unseen Domain and Unseen Classes:
+Accuracy: 0.3103333333333333; Variation: 0.1963667204209738
+
+Evaluating for Unseen Domain and Seen Classes:
+Accuracy: 0.43600000000000005; Variation: 0.22068982758613953
+
+Evaluating for Seen Domain and Unseen Classes:
+	Domain : Art
+	Accuracy: 0.3176666666666667; variation: 0.20933519107455925
+
+
+	Domain : Clipart
+	Accuracy: 0.309; variation: 0.19946344694371115
+
+
+	Domain : Product
+	Accuracy: 0.30400000000000005; variation: 0.1999599959991998
+
+
+--------------------------------
+
+

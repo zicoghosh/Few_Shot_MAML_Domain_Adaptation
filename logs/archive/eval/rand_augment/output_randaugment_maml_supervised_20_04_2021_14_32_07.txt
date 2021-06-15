@@ -1,0 +1,40 @@
+Train len 50
+Test len 15
+Model No: final_model.pt
+
+Evaluating for Seen-Domains('Art', 'Clipart', 'Product') and Seen Classes(Train):
+	Domain : Art
+	Accuracy: 0.4696666666666668; variation: 0.22777157173117302
+
+
+	Domain : Clipart
+	Accuracy: 0.445; variation: 0.22190463417122827
+
+
+	Domain : Product
+	Accuracy: 0.4553333333333333; variation: 0.2203139174501289
+
+
+
+Evaluating for Seen-Domains('Art', 'Clipart', 'Product') and Unseen Classes(Test):
+	Domain : Art
+	Accuracy: 0.24800000000000003; variation: 0.1917359295141802
+
+
+	Domain : Clipart
+	Accuracy: 0.26466666666666666; variation: 0.19515350083687685
+
+
+	Domain : Product
+	Accuracy: 0.2753333333333333; variation: 0.1998121339881262
+
+
+
+Evaluating for UnSeen Domain('Real World') and Seen Classes:
+Accuracy: 0.43433333333333335; Variation: 0.21959331096875928
+
+Evaluating for UnSeen Domain('Real World') and UnSeen Classes:
+Accuracy: 0.26199999999999996; Variation: 0.1980471324373738
+---------------------------- THE END ----------------------------
+
+

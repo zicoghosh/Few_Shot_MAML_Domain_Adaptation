@@ -1,0 +1,86 @@
+Successfully loaded user defined functions
+officehome_gs_maml_checkpoint_order_2_seed_0_datetime_13_04_2021_10_24_39_shots_1_ways_5
+batch 0: train=0.350000 test=0.302000
+batch 1000: train=0.344000 test=0.376000
+batch 2000: train=0.382000 test=0.340000
+batch 3000: train=0.412000 test=0.352000
+batch 4000: train=0.424000 test=0.374000
+batch 5000: train=0.454000 test=0.372000
+batch 6000: train=0.482000 test=0.334000
+batch 7000: train=0.504000 test=0.382000
+batch 8000: train=0.510000 test=0.296000
+batch 9000: train=0.544000 test=0.364000
+batch 10000: train=0.500000 test=0.340000
+batch 11000: train=0.562000 test=0.318000
+batch 12000: train=0.584000 test=0.350000
+batch 13000: train=0.566000 test=0.322000
+batch 14000: train=0.598000 test=0.272000
+batch 15000: train=0.604000 test=0.332000
+batch 16000: train=0.578000 test=0.344000
+batch 17000: train=0.626000 test=0.330000
+batch 18000: train=0.624000 test=0.304000
+batch 19000: train=0.618000 test=0.308000
+batch 20000: train=0.654000 test=0.314000
+batch 21000: train=0.664000 test=0.320000
+batch 22000: train=0.620000 test=0.320000
+batch 23000: train=0.632000 test=0.260000
+batch 24000: train=0.670000 test=0.348000
+batch 25000: train=0.652000 test=0.272000
+batch 26000: train=0.644000 test=0.304000
+batch 27000: train=0.646000 test=0.328000
+batch 28000: train=0.624000 test=0.304000
+batch 29000: train=0.640000 test=0.256000
+batch 30000: train=0.644000 test=0.318000
+batch 31000: train=0.628000 test=0.336000
+batch 32000: train=0.646000 test=0.302000
+batch 33000: train=0.652000 test=0.370000
+batch 34000: train=0.608000 test=0.296000
+batch 35000: train=0.680000 test=0.314000
+batch 36000: train=0.670000 test=0.330000
+batch 37000: train=0.656000 test=0.340000
+batch 38000: train=0.632000 test=0.288000
+batch 39000: train=0.676000 test=0.316000
+batch 40000: train=0.694000 test=0.314000
+batch 41000: train=0.650000 test=0.320000
+batch 42000: train=0.656000 test=0.288000
+batch 43000: train=0.670000 test=0.330000
+batch 44000: train=0.642000 test=0.316000
+batch 45000: train=0.630000 test=0.334000
+batch 46000: train=0.674000 test=0.296000
+batch 47000: train=0.682000 test=0.328000
+batch 48000: train=0.696000 test=0.326000
+batch 49000: train=0.712000 test=0.272000
+batch 50000: train=0.722000 test=0.296000
+batch 51000: train=0.660000 test=0.318000
+batch 52000: train=0.680000 test=0.292000
+batch 53000: train=0.672000 test=0.310000
+batch 54000: train=0.668000 test=0.276000
+batch 55000: train=0.704000 test=0.316000
+batch 56000: train=0.632000 test=0.298000
+batch 57000: train=0.740000 test=0.326000
+batch 58000: train=0.704000 test=0.312000
+batch 59000: train=0.724000 test=0.274000
+Training Complete
+
+
+Evaluating...
+
+Evaluating for Unseen Domain and Unseen Classes:
+Accuracy: 0.30033333333333334; Variation: 0.20558831570776476
+
+Evaluating for Unseen Domain and Seen Classes:
+Accuracy: 0.7106666666666667; Variation: 0.19837562574290443
+
+Evaluating for Seen Domain and Unseen Classes:
+	Domain : Art
+	Accuracy: 0.32666666666666666; variation: 0.21623032986969137
+
+
+	Domain : Clipart
+	Accuracy: 0.30633333333333335; variation: 0.19687531305089748
+
+
+	Domain : Product
+	Accuracy: 0.30733333333333335; variation: 0.20382890428548703
+
+
